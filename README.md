@@ -1,4 +1,4 @@
-# bimart-scf-ecbc-vue
+# vue3-template-puls
 
 ## Project setup
 ```
