@@ -1,34 +1,21 @@
 # vue3-admin-template-puls
+基于 Ant Design of Vue 的 vue 3x 后台管理系统模板
 
-## Project setup
-```
+Usage
+# Clone project
+git clone https://github.com/liuvigongzuoshi/vue-iview-admin-template.git
+
+# Install dependencies
 npm install
-```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+# Compiles and hot-reloads for development
+npm run dev
 
-### Compiles and minifies for production
-```
+# Compiles and minifies for production
 npm run build
-```
 
-### Run your unit tests
-```
-npm run test:unit
-```
+# Compiles and minifies for production and analysis report
+npm run build:r
 
-### Run your end-to-end tests
-```
-npm run test:e2e
-```
-
-### Lints and fixes files
-```
+# Lints and fixes files
 npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
