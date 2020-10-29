@@ -1,4 +1,4 @@
-# vue3-template-puls
+# vue3-admin-template-puls
 
 ## Project setup
 ```
