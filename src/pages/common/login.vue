@@ -21,19 +21,24 @@ export default {
 // }
 .login-container {
     width: 100%;
-    height: 100%;
-    min-height: 100vh;
-    background: url("~@/assets/image/login-bg.jpg") no-repeat;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    background-image: url("~@/assets/image/login-bg.jpg");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
+    background-position: 50%;
+    overflow: hidden;
 }
-@media (max-width: 1200px) {
-    .login-container {
-        background-position: center;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size:;
-        background-image: url("~@/assets/image/login-bg.jpg");
-    }
-}
+// @media (max-width: 1200px) {
+//     .login-container {
+//         background-position: center;
+//         background-repeat: no-repeat;
+//         background-attachment: fixed;
+//         background-size:;
+//         background-image: url("~@/assets/image/login-bg.jpg");
+//     }
+// }
 </style>
